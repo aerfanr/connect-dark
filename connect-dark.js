@@ -10,6 +10,9 @@ const makeDark = () => {
             div.style.padding = '0'
             continue
         }
+        if (/share*/.test(div.className) || /pdf*/.test(div.className) || /whiteboard*/.test(div.className) || /wb*/.test(div.className)) {
+            continue
+        }
         div.style.backgroundColor = '#111111'
         div.style.borderColor = 'black'
         div.style.scrollbarColor = 'dark'
