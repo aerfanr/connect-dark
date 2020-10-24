@@ -2,7 +2,7 @@
 This is a Firefox extension that injects some JS to Adobe Connect HTML5 client and enables dark theme.
 
 ## Chromium installation
-To install Chromium version (for Chromium, Chrome, new Edge, Brave etc.) you should clone this repository or download source code archive from [releases page](https://github.com/aerfanr/connect-dark/releases). Then you can go to chrome extensions page, enable developer tools and choose `Load Unpacked` and select **folder with extension source code inside it** and install the extension.
+To install Chromium version (for Chromium, Chrome, new Edge, Brave etc.) you should clone this repository or download source code archive from [releases page](https://github.com/aerfanr/connect-dark/releases). Then you can go to chrome extensions page, enable developer mode and choose `Load Unpacked` and select **folder with extension source code inside it** and install the extension.
 
 You have to follow this procedure because google wants $5 from me and I don't enjoy paying them. Feel free to pay them and submit extension with your name in Chrome Web Store :)
 
