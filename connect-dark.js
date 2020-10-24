@@ -22,6 +22,6 @@ const makeDark = () => {
 
 console.log("test")
 
-browser.runtime.onMessage.addListener((message) => {
+chrome.runtime.onMessage.addListener((message) => {
     makeDark()
 })
